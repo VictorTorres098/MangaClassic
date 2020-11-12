@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 75px;
+}
+.inicio{
+    width: 100%;
+    height: 75px;
+    background-color: dodgerblue;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 75px;
+    float: left;
+    
+}
+.logo img{
+    max-width: 100%;
+    max-height: 95%;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+.navegador{
+    width: 70%;
+    height: 75px;
+    float: left;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+.navegador ul li{
+    display: inline-block;
+    color: white;
+}
+.navegador ul a{
+    padding-left: 35px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+.titulos{
+    width: 100%;
+    height: 30px;
+    background-color: chartreuse;
+    text-align: left;
+    margin-top: 10px;
+}
+.cuerpo{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.envoltorio{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    padding-top: 10px;
+}
+.conteiner{
+    grid-column: 2/10;
+    width: 100%;
+    height: auto;
+    background-color: white;
+ 
+}
+.item{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.portada{
+    width: 100%;
+    height: 314px;
+
+}
+.portadaImg{
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.titulo{
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: black;
+    font-size: 12px;
+}
+.titulo h1{
+    color:black;
+}
+/*.nombreManga{
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+*/
+.navegacion{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    background-color: dodgerblue;
+    margin-top: 15px;
+}
+
+.butons{
+    grid-column: 3/8;
+    background-color: dodgerblue;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.Boton{
+    float: left;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#primero{
+    margin-left: 45%;
+}
+.boton :hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+.categoriasLower{
+    background-color: dodgerblue;
+    border: solid black 1px;
+    height: auto;
+    width: auto;
+}
+.section{
+    text-decoration: none;
+    display: inline-block;
+    border: grey 1px;
+    margin-top: 15px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    color: white;
+}
+.footer{
+    margin-top: 10px;
+    border: solid grey 1px;
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+}
+.footer h1{
+    text-align: center;
+}
